@@ -34,7 +34,7 @@ public class  MainActivity extends AppCompatActivity {
     AlertDialog.Builder dialogBuilder;
     AlertDialog dialog;
 
-    String TAG = "LifeCycle";
+    //String TAG = "LifeCycle";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,7 +82,7 @@ public class  MainActivity extends AppCompatActivity {
                 confirmation.putExtra("menu3",checkBoxM3.getText().toString());
                 confirmation.putExtra("montantM3",montantM3);
             }
-            Log.i(TAG, "onClick :");
+            //Log.i(TAG, "onClick :");
 
             verification();
         }

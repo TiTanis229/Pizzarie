@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="detailM1"> Olive
-        \nBase Tomate
-        \nTruc3
-        \nBoisson au choix
+    <string name="detailM1"> - Ingrédient 1
+        \n- Ingrédient 2
+        \n- Ingrédient 3
+        \n- Boisson
     </string>
 
-    <string name="detailM2"> Olive
-        \nBase crème fraiche
-        \nChèvre
-        \nTruc3
-        \nDessert ou Boisson
+    <string name="detailM2"> - Ingrédient 1
+        \n- Ingrédient 2
+        \n- Ingrédient 3
+        \n- Ingrédient 4
+        \n- Dessert ou Boisson
     </string>
 
-    <string name="detailM3"> Olive
-        \nBase Tomate
-        \nTruc3
-        \nTruc4
-        \nDessert
-        \nBoisson au choix
+    <string name="detailM3"> Ingrédient 1
+        \n- Ingrédient 2
+        \n-Ingrédient 3
+        \n- Ingrédient 4
+        \n- Dessert
+        \n- Boisson au choix
     </string>
 
 </resources>

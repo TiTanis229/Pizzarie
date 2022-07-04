@@ -33,7 +33,7 @@ public class ConfirmActivity extends AppCompatActivity {
     String tel;
 
     public static final int Permission_SMSDirect = 1;
-    String TAG = "LifeCycle_Confirm";
+    //String TAG = "LifeCycle_Confirm";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +53,7 @@ public class ConfirmActivity extends AppCompatActivity {
         txtRecap.setText(nom);
 
         recapMenu();
-        Log.i(TAG, "onCreate: ");
+        //Log.i(TAG, "onCreate: ");
     }
 
     private void recapMenu() {
