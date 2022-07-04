@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="detailM1"> Olive
+        \nBase Tomate
+        \nTruc3
+        \nBoisson au choix
+    </string>
+
+    <string name="detailM2"> Olive
+        \nBase crème fraiche
+        \nChèvre
+        \nTruc3
+        \nDessert ou Boisson
+    </string>
+
+    <string name="detailM3"> Olive
+        \nBase Tomate
+        \nTruc3
+        \nTruc4
+        \nDessert
+        \nBoisson au choix
+    </string>
+
+</resources>

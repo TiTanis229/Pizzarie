@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:background="@drawable/custom_dialog"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="details du menu"
+        android:textSize="25sp"
+        android:fontFamily="@font/alfa_slab_one"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/textViewPopupM2"/>
+
+    <TextView
+        android:id="@+id/textViewPopupM2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:text="@string/detailM2"
+        android:textSize="15sp"
+        android:fontFamily="@font/alfa_slab_one"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/imageButtonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/ic_cancel"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:contentDescription="cancel" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="86dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewPopupM2"
+        app:layout_constraintEnd_toStartOf="@+id/textViewPopupM2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        app:srcCompat="@drawable/pizza_background"
+        android:contentDescription="pizza" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
